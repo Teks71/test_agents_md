@@ -1,0 +1,17 @@
+{
+  "name": "test_agents_md",
+  "version": "0.1.0",
+  "description": "Минимальный каркас Electron для дальнейшей разработки",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --enable-logging",
+    "build": "node ./scripts/build-placeholder.js",
+    "lint": "node ./scripts/lint-placeholder.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^30.0.0"
+  }
+}
